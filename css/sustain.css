@@ -1,0 +1,142 @@
+/*helllo this was made by McKinnon Porter for ITEC362*/
+/*global background colors and widths*/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+ font-size: 16px;
+ line-height: 1.5;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin: 0;
+}
+header,nav ul, #contexr-wrapper{
+width: 90%;
+max-width: 1200px;
+margin-right: auto;
+margin-left: auto;
+
+}
+a{
+    color: #008000;
+}
+/*logo and header*/
+#logo{
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+}
+header{
+   position: relative;
+   offset: 0;
+}
+
+header h1, nav ul{
+    padding-left: 50px;
+}
+/*nav bar*/
+
+nav{
+    background-color: #008000;
+}
+nav ul li{
+    list-style-type: none;
+
+}
+li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color: #000000;
+    color: #9ae39a;
+}
+/*home page imaage*/
+
+main article img{
+    border: double 3px #333;
+    float: left;
+    margin-top: .5rem;
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
+
+/*home page bottom columns*/
+main section{
+ display: flex;
+}
+main section div{
+    background-color: #e7ffe7;
+    border: 1px soild #008000;
+    border-radius: 10px;
+    margin-right: 1rem;
+    flex: 1;
+    text-align: center;
+}
+
+#bam{
+    margin-right: 0;
+}
+
+main section div h2{
+    background-color: #008000;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    margin-top: 0;
+}
+
+main section div img{
+    border: 3px double #333;
+    display: block;
+    margin: auto;
+}
+
+aside section{
+    background-color: white;
+    margin-bottom: 1rem;
+    border: 1px solid #008000;
+}
+
+aside h3{
+    background-color: #008000;
+    color: white;
+    padding: .5rem;
+    margin: 0 0 0 0;
+}
+
+aside a{
+    display: inline-block;
+    padding: .5rem;
+}
+
+#content-wrapper{
+    display: flex;
+}
+
+aside{
+    order: 2;
+    flex: 1;
+    background-color: #ccc;
+    margin-right: 1rem;
+    padding: .5rem;
+    position: relative;
+    top: 20px;
+    flex: 1;
+}
+
+aside h2{
+    margin-top: 0;
+    white-space: nowrap;
+}
+
+#content-wrapper main{
+    order:3;
+}
