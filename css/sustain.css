@@ -1,6 +1,6 @@
-/*helllo this was made by McKinnon Porter for ITEC362*/
-/*global background colors and widths*/
+/*helllo this was made by McKinnon Porter for ITEC362 the date is 10/1/2025*/
 
+/*global background colors and widths*/
 *{
     box-sizing: border-box;
 }
@@ -16,7 +16,6 @@ width: 90%;
 max-width: 1200px;
 margin-right: auto;
 margin-left: auto;
-
 }
 a{
     color: #008000;
@@ -47,7 +46,7 @@ nav ul li{
 li{
     display: inline-block;
 }
-
+/*nav bar links*/
 nav ul li a{
     display: inline-block;
     padding: 1rem;
@@ -85,7 +84,7 @@ main section div{
 #bam{
     margin-right: 0;
 }
-
+/*home page bottom columns headings and images*/
 main section div h2{
     background-color: #008000;
     border-radius: 10px 10px 0px 0px;
@@ -98,7 +97,7 @@ main section div img{
     display: block;
     margin: auto;
 }
-
+/*aside bar*/
 aside section{
     background-color: white;
     margin-bottom: 1rem;
@@ -116,7 +115,7 @@ aside a{
     display: inline-block;
     padding: .5rem;
 }
-
+/*main content and more aside bar*/
 #content-wrapper{
     display: flex;
 }
